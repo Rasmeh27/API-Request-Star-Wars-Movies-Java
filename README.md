@@ -1,48 +1,50 @@
-# Resquest Star Wars Movies
+# Request Star Wars Movies
 
-**Resquest Star Wars Movies** es un proyecto en Java que permite buscar información sobre películas de la saga de Star Wars utilizando la API pública SWAPI (Star Wars API). 
-El proyecto descarga información de una película específica y la guarda en un archivo JSON.
+**Request-Star-Wars-Movies** is a Java project that allows you to search for information about Star Wars films using the public SWAPI (Star Wars API). The project retrieves information about a specific film and saves it in a JSON file.
 
-## Contenido
+## Contents
 
-- **ConsultaPelicula**: Clase responsable de realizar la búsqueda de la película.
-- **GeneradorArchivo**: Clase que se encarga de guardar la información de la película en un archivo JSON.
-- **Pelicula**: Clase de registro que representa la estructura de la película.
-- **Principal**: Clase que contiene el método `main`, donde se ejecuta la aplicación.
+- **ConsultaPelicula**: Class responsible for searching for the film.
+- **GeneradorArchivo**: Class that handles saving the film information to a JSON file.
+- **Pelicula**: Record class representing the structure of a film.
+- **Principal**: Class that contains the `main` method where the application is executed.
 
-## Requisitos
+## Requirements
 
-- Java 11 o superior.
-- Biblioteca **Gson** para la manipulación de JSON. Asegúrate de incluir el archivo JAR de Gson en tu proyecto.
+- Java 11 or higher.
+- **Gson** library for JSON manipulation. Make sure to include the Gson JAR file in your project.
 
-## Instalación
+## Installation
 
-1. Clona este repositorio o descarga los archivos del proyecto.
-2. Asegúrate de tener Java instalado en tu máquina.
-3. Incluye la biblioteca Gson en tu proyecto.
+1. Clone this repository or download the project files.
+2. Ensure you have Java installed on your machine.
+3. Include the Gson library in your project.
 
-## Uso
+## Usage
 
-1. Ejecuta la clase `Principal`.
-2. Cuando se te pida, ingresa el número de la película de Star Wars que deseas consultar (1-6).
-3. La información de la película se mostrará en la consola y se guardará en un archivo JSON con el título de la película.
+1. Run the `Principal` class.
+2. When prompted, enter the number of the Star Wars film you want to query (1-6).
+3. The film information will be displayed in the console and saved to a JSON file named after the film's title.
 
-## Ejemplo
+## Example
 
-Al ejecutar la aplicación, el usuario verá algo como:
+When running the application, the user will see something like:
 
-Escribe el numero de la pelicula de SW: 
+Escribe el numero de la pelicula de SW:(
+Write the number of the SW movie:)
 1
 Pelicula(title=The Phantom Menace, episode_id=1, opening_crawl=..., director=George Lucas, producer=Rick McCallum, release_date=1999-05-19)
 
-Esto generará un archivo llamado `The Phantom Menace.json` con la información de la película.
+This will generate a file named `The Phantom Menace.json` containing the film's information.
 
-## Manejo de Errores
+## Error Handling
 
-Si el número de la película ingresado no es válido o si hay un problema al realizar la búsqueda, se mostrará un mensaje de error en la consola:
+If the entered film number is invalid or if there is an issue with the search, an error message will be displayed in the console:
 
 No se ha encontrado la pelicula
 Finalizacion de la aplicacion
 
-
+Traduction:
+The movie has not been found
+Completion of the application
 
