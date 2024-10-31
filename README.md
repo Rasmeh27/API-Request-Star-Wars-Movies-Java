@@ -1,6 +1,6 @@
-# ConsultaPelicula
+# Resquest Star Wars Movies
 
-**ConsultaPelicula** es un proyecto en Java que permite buscar información sobre películas de la saga de Star Wars utilizando la API pública SWAPI (Star Wars API). 
+**Resquest Star Wars Movies** es un proyecto en Java que permite buscar información sobre películas de la saga de Star Wars utilizando la API pública SWAPI (Star Wars API). 
 El proyecto descarga información de una película específica y la guarda en un archivo JSON.
 
 ## Contenido
